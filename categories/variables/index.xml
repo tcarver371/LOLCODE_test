@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Variables on LOLCODE Documentation</title>
+    <link>/categories/variables/</link>
+    <description>Recent content in Variables on LOLCODE Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 08:39:55 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/variables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scope</title>
+      <link>/lolcode/scope/</link>
+      <pubDate>Thu, 05 May 2016 08:39:55 -0400</pubDate>
+      
+      <guid>/lolcode/scope/</guid>
+      <description>(to be revisited and refined)
+All variable scope, as of this version, is local to the enclosing function or to the main program block. Variables are only accessible after declaration, and there is no global scope.</description>
+    </item>
+    
+    <item>
+      <title>Naming</title>
+      <link>/lolcode/naming/</link>
+      <pubDate>Thu, 05 May 2016 08:39:55 -0400</pubDate>
+      
+      <guid>/lolcode/naming/</guid>
+      <description>(from 1.1)
+Variable identifiers may be in all small or lowercase letters (or a mixture of the two). They must begin with a letter and may be followed only by other letters, numbers, and underscores. No spaces, dashes, or other symbols are allowed. Variable identifiers are CASE SENSITIVE – &amp;ldquo;cheezburger&amp;rdquo;, &amp;ldquo;CheezBurger&amp;rdquo; and &amp;ldquo;CHEEZBURGER&amp;rdquo; would all be different variables.</description>
+    </item>
+    
+    <item>
+      <title>Declaration and Assignment</title>
+      <link>/lolcode/declaration/</link>
+      <pubDate>Thu, 05 May 2016 08:39:55 -0400</pubDate>
+      
+      <guid>/lolcode/declaration/</guid>
+      <description>(modified from 1.1)
+To declare a variable, the keyword is I HAS A followed by the variable name. To assign the variable a value within the same statement, you can then follow the variable name with ITZ &amp;lt;value&amp;gt;.
+Assignment of a variable is accomplished with an assignment statement, &amp;lt;variable&amp;gt; R &amp;lt;expression&amp;gt;
+I HAS A VAR BTW VAR is null and untyped VAR R &amp;#34;THREE&amp;#34; BTW VAR is now a YARN and equals &amp;#34;THREE&amp;#34; VAR R 3 BTW VAR is now a NUMBR and equals 3</description>
+    </item>
+    
+  </channel>
+</rss>

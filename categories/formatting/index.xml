@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>formatting on LOLCODE Documentation</title>
+    <link>/categories/formatting/</link>
+    <description>Recent content in formatting on LOLCODE Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 May 2016 17:35:01 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/formatting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Whitespace</title>
+      <link>/lolcode/whitespace/</link>
+      <pubDate>Wed, 04 May 2016 17:35:01 -0400</pubDate>
+      
+      <guid>/lolcode/whitespace/</guid>
+      <description>Spaces are used to demarcate tokens in the language, although some keyword constructs may include spaces.
+ Multiple spaces and tabs are treated as single spaces and are otherwise irrelevant.
+ Indentation is irrelevant.
+ A command starts at the beginning of a line and a newline indicates the end of a command, except in special cases.
+ A newline will be Carriage Return (/13), a Line Feed (/10) or both (/13/10) depending on the implementing system.</description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>/lolcode/comments/</link>
+      <pubDate>Wed, 04 May 2016 17:35:01 -0400</pubDate>
+      
+      <guid>/lolcode/comments/</guid>
+      <description>(from 1.1)
+Single line comments are begun by BTW, and may occur either after a line of code, on a separate line, or following a line of code following a line separator (,).
+All of these are valid single line comments:
+I HAS A VAR ITZ 12 BTW VAR = 12I HAS A VAR ITZ 12, BTW VAR = 12I HAS A VAR ITZ 12 BTW VAR = 12 Multi-line comments are begun by OBTW and ended with TLDR, and should be started on their own lines, or following a line of code after a line separator.</description>
+    </item>
+    
+    <item>
+      <title>File Creation</title>
+      <link>/lolcode/file_creation/</link>
+      <pubDate>Wed, 04 May 2016 17:35:01 -0400</pubDate>
+      
+      <guid>/lolcode/file_creation/</guid>
+      <description>(modified from 1.1)
+All LOLCODE programs must be opened with the command HAI. HAI should then be followed with the current LOLCODE language version number (1.2, in this case). There is no current standard behavior for implementations to treat the version number, though.
+A LOLCODE file is closed by the keyword KTHXBYE which closes the HAI code-block.</description>
+    </item>
+    
+  </channel>
+</rss>

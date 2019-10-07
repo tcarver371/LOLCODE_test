@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flow Control on LOLCODE Documentation</title>
+    <link>/categories/flow-control/</link>
+    <description>Recent content in Flow Control on LOLCODE Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 08:55:44 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/flow-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conditionals</title>
+      <link>/lolcode/conditionals/</link>
+      <pubDate>Thu, 05 May 2016 08:55:44 -0400</pubDate>
+      
+      <guid>/lolcode/conditionals/</guid>
+      <description>If-Then The traditional if/then construct is a very simple construct operating on the implicit IT variable. In the base form, there are four keywords: O RLY?, YA RLY, NO WAI, and OIC.
+O RLY? branches to the block begun with YA RLY if IT can be cast to WIN, and branches to the NO WAI block if IT is FAIL. The code block introduced with YA RLY is implicitly closed when NO WAI is reached.</description>
+    </item>
+    
+    <item>
+      <title>Loops</title>
+      <link>/lolcode/loops/</link>
+      <pubDate>Thu, 05 May 2016 08:55:44 -0400</pubDate>
+      
+      <guid>/lolcode/loops/</guid>
+      <description>Loops are currently defined more or less as they were in the original examples. Further looping constructs will be added to the language soon.
+Simple loops are demarcated with IM IN YR &amp;lt;label&amp;gt; and IM OUTTA YR &amp;lt;label&amp;gt;. Loops defined this way are infinite loops that must be explicitly exited with a GTFO break. Currently, the &amp;lt;label&amp;gt; is required, but is unused, except for marking the start and end of the loop.</description>
+    </item>
+    
+  </channel>
+</rss>
